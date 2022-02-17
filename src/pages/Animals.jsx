@@ -34,31 +34,31 @@ function Animals() {
       <header>
         <Header/>
         <TableContainer component={Paper}>
-      <Table sx={{ minWidth: 700 }} aria-label="customized table">
-        <TableHead>
-          <TableRow>
-            <TableCell>ID</TableCell>
-            <TableCell align="right">Nome</TableCell>
-            <TableCell align="right">Raça</TableCell>
-            <TableCell align="right">Nascimento</TableCell>
-          </TableRow>
-        </TableHead>
-        <TableBody>
-          {animals.map((animal) => (
-            <TableRow key={animal.name}>
-              <TableCell component="th" scope="row">
-                {animal.id}
-              </TableCell>
-              <TableCell align="right">
-                {animal.name}
-              </TableCell>
-              <TableCell align="right">{animal.breed}</TableCell>
-              <TableCell align="right">{animal.birth}</TableCell>
-            </TableRow>
-          ))}
-        </TableBody>
-      </Table>
-    </TableContainer>
+          <Table sx={{ minWidth: 700 }} aria-label="customized table">
+            <TableHead>
+              <TableRow>
+                <TableCell>ID</TableCell>
+                <TableCell align="right">Nome</TableCell>
+                <TableCell align="right">Raça</TableCell>
+                <TableCell align="right">Nascimento</TableCell>
+              </TableRow>
+            </TableHead>
+            <TableBody>
+              {animals.map((animal) => (
+                <TableRow key={animal.name}>
+                  <TableCell component="th" scope="row">
+                    {animal.id}
+                  </TableCell>
+                  <TableCell align="right">
+                    {animal.name}
+                  </TableCell>
+                  <TableCell align="right">{animal.breed}</TableCell>
+                  <TableCell align="right">{animal.birth}</TableCell>
+                </TableRow>
+              ))}
+            </TableBody>
+          </Table>
+        </TableContainer>
       </header>
     </div>
   )
