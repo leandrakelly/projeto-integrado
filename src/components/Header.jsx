@@ -4,15 +4,14 @@ import { Link } from 'react-router-dom';
 
 function Header() {
   return (
-    <div>
+    <div className='header'>
       <Grid container spacing={2}>
         <Grid item xs={12}>
           <div className="site-name">Adote-me! ♥</div>
         </Grid>
         <Grid item xs={12}>
           <div className="menu-options">
-            <Button variant="contained">
-               
+            <Button variant="contained"> 
               <Link to="adoption"> Adoção </Link>
             </Button>
             <Button variant="contained">
