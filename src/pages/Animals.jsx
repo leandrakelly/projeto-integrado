@@ -45,7 +45,7 @@ function Animals() {
             </TableHead>
             <TableBody>
               {animals.map((animal) => (
-                <TableRow key={animal.name}>
+                <TableRow key={animal.id}>
                   <TableCell component="th" scope="row">
                     {animal.id}
                   </TableCell>
