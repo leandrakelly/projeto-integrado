@@ -14,15 +14,15 @@ function App() {
   return (
     <div className="App">
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="adoption" element={<Adoption/>} />
-        <Route path="animals" element={<Animals/>} />
-        <Route path="clients" element={<Clients/>} />
-        <Route path="feed-donation" element={<FeedDonation/>} />
-        <Route path="medicine-donation" element={<MedicineDonation/>} />
-        <Route path="feed-stock" element={<FeedStock/>} />
-        <Route path="medicine-stock" element={<MedicineStock/>} />
-        <Route path="vaccination" element={<Vaccination/>} />
+        <Route exact path="/" element={<Home />} />
+        <Route path="/adoption" element={<Adoption />} />
+        <Route path="/animals" element={<Animals />} />
+        <Route path="/clients" element={<Clients />} />
+        <Route path="/feed-donation" element={<FeedDonation />} />
+        <Route path="/medicine-donation" element={<MedicineDonation />} />
+        <Route path="/feed-stock" element={<FeedStock />} />
+        <Route path="/medicine-stock" element={<MedicineStock />} />
+        <Route path="/vaccination" element={<Vaccination />} />
       </Routes>
     </div>
   );

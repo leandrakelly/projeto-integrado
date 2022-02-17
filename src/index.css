@@ -1,16 +1,18 @@
 body{
   background-color: #F5F5F5;
   font-family: 'Roboto';
+  padding: 15px;
+  margin: 30px;
 }
 
-.header{
-  padding: 10px;
-  margin: 20px 0 0 20px;
+.header-divider{
+  margin-top: 17px;
 }
 
 .menu-options Button{
  background-color: #6BA13C;
  margin: 5px;
+ text-transform: none;
 }
 
 .menu-options Button:hover{
@@ -21,12 +23,37 @@ body{
   text-decoration: none;
   color: white;
   font-weight: 400;
-  font-size: 13px;
+  font-size: 15px;
  }
 
- .site-name{
+ .site-name a{
    color: #6BA13C;
    font-size: 28px;
    font-weight: 600;
+   text-decoration: none;
+ }
+
+ .home-body{
+   margin-top: 100px;
+}
+
+ .welcome-title{
+   font-size: 28px;
+   font-weight: 600;
+   color: #6BA13C;
+   margin-bottom: 10px;
+ }
+
+ .description{
+  text-align: justify;
+  text-justify: inter-word;
+ }
+
+ .home-image img{
+   height: 200px;
+   width: auto;
+   border-radius: 100%;
+   margin-top: -30px;
+   margin-left: 30px;
  }
  
