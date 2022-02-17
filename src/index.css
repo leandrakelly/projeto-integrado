@@ -23,7 +23,7 @@ body{
   text-decoration: none;
   color: white;
   font-weight: 400;
-  font-size: 15px;
+  font-size: 14px;
  }
 
  .site-name a{
@@ -35,6 +35,27 @@ body{
 
  .home-body{
    margin-top: 100px;
+}
+
+.adoption-body h3{
+  font-size: 25px;
+}
+
+.adoption-body Input{
+  width: 350px;
+}
+
+.adoption-body .css-1u3bzj6-MuiFormControl-root-MuiTextField-root {
+  margin-top: 6px;
+}
+
+.adoption-body Button{
+  margin: 20px;
+  background-color: #6BA13C;
+}
+
+.adoption-body Button:hover{
+  background-color: #6BA13C;
 }
 
  .welcome-title{
