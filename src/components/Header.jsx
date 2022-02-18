@@ -8,7 +8,10 @@ function Header() {
     <div className="header">
       <Grid container spacing={2}>
         <Grid item xs={12}>
-          <div className="site-name"> <Link to="/"> Adote-me! ♥ </Link></div>
+          <div className="site-name">
+            {' '}
+            <Link to="/"> Adote-me! ♥ </Link>
+          </div>
         </Grid>
         <Grid item xs={12}>
           <div className="menu-options">
@@ -31,7 +34,7 @@ function Header() {
               <Link to="/feed-stock"> Estoque de Ração </Link>
             </Button>
             <Button variant="contained">
-              <Link to="/medicine-stock"> Estoque de Medicamento </Link>
+              <Link to="/medicine-stock"> Uso de Medicamento </Link>
             </Button>
             <Button variant="contained">
               <Link to="/vaccination"> Vacinação </Link>
